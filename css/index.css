@@ -49,7 +49,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
 
 
 
@@ -168,7 +167,7 @@ footer{
 	display: flex;
     justify-content: center;
 	align-items: center;
-	margin-top: 15px;
+    margin-top: 15px;
 }
 /* Service Page*/
 .services-header-img {
@@ -327,7 +326,7 @@ button{
     }
     .final-section {
         width: 100%;
-        margin-left: 5px;
+        margin-left: 60px;
     }
 }
 /*tablet*/
@@ -376,5 +375,8 @@ button{
     .product {
         margin-right: 80px;
   
+    }
+    .final-section {
+        margin-left: 10px;
     }
 }
