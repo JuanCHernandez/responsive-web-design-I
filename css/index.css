@@ -1,3 +1,382 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
 
 
+
+
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+nav {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-left: 25px;
+
+
+
+}
+.logo {
+	width: 25%;
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+.links {
+	width: 60%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 175px;
+	
+
+
+}
+.codepic{
+	width: 25%;
+	margin-left: 1%;
+	margin-top: 15px;
+}
+.ino{
+   width: 30%;
+   font-size: 50px;
+   max-width: 20%;
+   text-align: center;
+}
+.features{
+	width: 30%;
+	font-size: 20px;
+}
+.about{
+	width: 30%;
+	font-size: 20px;
+}
+.middle-img {
+	width: 60%;
+}
+.services{
+	width: 20%;
+	font-size: 20px;
+}
+.product{
+	width: 20%;
+	font-size: 20px;
+}
+.vision{
+	width: 20%;
+	font-size: 19.7px;
+}
+.contact{
+	width: 22%;
+	font-size: 19px;
+	margin-right: 280px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 30px;
+}
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+.first-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.second-section {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	margin-top: 15px;
+}
+.midpic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.final-section {
+	width: 70%;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+    margin-top: 15px;
+}
+/* Service Page*/
+.services-header-img {
+	width: 65%;
+	height: 220px;
+}
+.top-pic {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;	
+}
+.top-section {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.service2 {
+	max-width: 65%;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.section-one, .section-two, .section-three {
+	display: flex;
+    justify-content: center;
+	align-items: center;	
+	margin-top: 15px;
+}
+.digital {
+	width: 30%;
+	font-size: 20px;
+	background-color: #CDCDCD;
+	border: 1px solid black;
+	margin-right: 5%;
+	line-height: 1.5;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.UX {
+	width: 30%;
+	font-size: 20px;
+	background-color: #CDCDCD;
+	border: 1px solid black;
+	line-height: 1.5;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.marketing, .web, .ios, .android {
+	width: 30%;
+	font-size: 20px;
+	background-color: #CDCDCD;
+	border: 1px solid black;
+	line-height: 1.5;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.web, .android {
+	margin-left: 5%;
+}
+ ul {
+	list-style-type: square;
+	margin-left: 3.5%;
+	margin-top: 5px;
+}
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 50px;
+}
+.facts {
+	width:30%;
+	font-size: 20px;
+}
+.infopic {
+	width: 30%;
+	margin-left: 5%;
+}
+button{
+	background-color: #F8F8F8;
+	border: none;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 4px;
+	cursor: pointer;
+	margin-top: 15px;	
+}
+
+/* Media Queries*/
+
+/*mobile*/
+@media (max-width: 500px) {
+    .links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 220px;
+        margin-top: 25px;
+        align-items: center;
+        text-decoration: underline;
+
+    }
+    .links a {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .ino {
+        margin-right: 50px;
+        text-align: center;
+    }
+    .first-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column; 
+        margin-left: 15%;
+    }
+    .features {
+    width: 75%;
+    margin-right: 10px;
+    }
+    .about {
+     margin-right: 160px;
+     width: 75%;
+    }
+.midpic .middle-img {
+    width: 80%;
+
+    }
+    .middle-img {
+        width: 100%;
+    }
+    .vision {
+        width: 85%;
+        margin-right: 80px;
+        
+    }
+    .product {
+        width: 85%;
+    }
+    .services {
+        width: 85%;
+    }
+    .final-section {
+        width: 100%;
+        margin-left: 60px;
+    }
+}
+/*tablet*/
+@media (max-width: 800px){
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        margin-top: 20px;
+    
+    }
+    nav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    width: 100%;
+
+    }
+    .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 220px;
+        margin-top: 25px;
+
+    }
+    .codepic{
+        display: none;
+    }
+    .main {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .about {
+        margin-left: 150px;
+    }
+
+    .middle-img {
+        width: 80%;
+    }
+    .services {
+        margin-right: 80px;
+    }
+    .product {
+        margin-right: 80px;
+  
+    }
+    .final-section {
+        margin-left: 10px;
+    }
+}
